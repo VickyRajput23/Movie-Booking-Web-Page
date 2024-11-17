@@ -1,0 +1,57 @@
+.background{
+  background-color: white;
+  height:650px;
+  padding: 30px;
+}
+
+.container {
+  padding: 30px;
+  max-width: 1000px;
+  height: 350px;
+  margin: 50px auto;
+  margin-top:100px;
+  border: 2px solid #28a745;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 5px 5px 10px 5px;
+}
+
+.container:hover{
+  
+  transform: translateY(-10px) ;
+  transition: 0.3s;
+  box-shadow: 10px 10px 20px 10px;
+
+}
+
+
+.title {
+  color: #28a745;
+  margin-bottom: 20px; 
+}
+
+.details {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+.details p {
+  font-size: 1.1em;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.homeLink {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.homeLink:hover {
+  background-color: #0056b3;
+}
